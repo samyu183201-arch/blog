@@ -2,8 +2,8 @@ locale: zh-TW
 timezone: Asia/Taipei
 
 title: "Sam.Blog"
-name: "SamYu"
-description: "分享技術、筆記與心得"
+name: 
+description: 
 url: "https://https://samyu183201.github.io"   # 例如: https://samyu183201.github.io
 baseurl: "/blog"                           # 如果有子路徑就填，否則留空 ""
 
