@@ -37,3 +37,12 @@ plugins:
   - jekyll-include-cache
 
 nav: primary
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/samyu183201-arch"
+    - label: "關於本站"
+      url: "/about/"
+
