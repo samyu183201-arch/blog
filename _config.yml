@@ -2,7 +2,7 @@ locale: zh-TW
 timezone: Asia/Taipei
 
 title: 我的部落格
-name: 你的名稱
+name: SamYu
 url: "https://<samyu183201-arch>.github.io"
 baseurl: ""
 description: "分享技術、筆記與心得"
