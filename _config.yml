@@ -1,53 +1,65 @@
+# 站台基本資訊
 locale: zh-TW
 timezone: Asia/Taipei
 
 title: "Sam.Blog"
-name: 
-description: 
-url: "https://https://samyu183201.github.io"   # 例如: https://samyu183201.github.io
-baseurl: "/blog"                           # 如果有子路徑就填，否則留空 ""
+description: "分享技術、筆記與心得"   # 用於 SEO 與搜尋摘要
+url: "https://samyu183201.github.io"    # ← 修正：移除重複的 https://
+baseurl: "/blog"                        # 若部署在 /blog 子路徑就保留；若是 username.github.io 根目錄請改成 ""
 
-# 佈景主題
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # 可選：default, dark, dirt, neon, air, sunrise...
+# 主題設定（GitHub Pages 建議同時宣告 theme 與 remote_theme）
+theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
-# 分頁設定
-paginate: 10
-paginate_path: /page:num/
+# Just the Docs 外觀
+color_scheme: dark                      # 可用：light(預設)/dark
 
-# 部落格文章設定
-permalink: /:categories/:title/
+# 導覽列右上角外部連結
+aux_links:
+  "GitHub":
+    - "https://github.com/你的帳號"
+  "Twitter":
+    - "https://twitter.com/你的帳號"
+aux_links_new_tab: true
 
-# Plugins (GitHub Pages 允許的插件)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+# 首頁與頁尾
+# 你可以建立 index.md 作為首頁內容
+footer_content: "© ${title} · Powered by Jekyll & Just the Docs"
 
-# 作者資訊
-author:
-  name   : "SamYu"
-  avatar : "/assets/images/avatar.png"  # 放頭像的路徑
-  bio    : "喜歡分享技術與筆記的工程師"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/你的帳號"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/你的帳號"
-
-# 預設值 (讓所有文章自動套用這些參數)
+# 內容與導覽
+# 建議把文件放在 docs/ 或 pages/；用檔頭(front matter)的 nav_order 控制排序
+collections:
+  pages:
+    output: true
+    permalink: /:path/                  # 乾淨網址
+# 預設值：所有 pages 集合中的文件都會套用這些
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
+      layout: default                   # Just the Docs 內建版型
+      nav_order: 9999                   # 沒指定就排在後面
+      has_toc: true                     # 右側目錄
+      search_exclude: false
+
+# 搜尋（Just the Docs 內建，不需額外插件）
+enable_search: true
+heading_anchors: true
+
+# 編輯連結（可選：顯示「Edit this page」）
+gh_edit_link: true
+gh_edit_link_text: "在 GitHub 編輯本頁"
+gh_edit_repository: "https://github.com/你的帳號/你的repo"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+# GitHub Pages 允許的插件（可留白；以下兩個常用且相容）
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 不再需要的（Minimal Mistakes 專屬，請移除）
+# minimal_mistakes_skin: ...
+# paginate, paginate_path, permalink (posts 用)
+# author 資訊與 avatar、社群 icon（Just the Docs 不吃這些）
