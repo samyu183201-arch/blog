@@ -1,23 +1,45 @@
 locale: zh-TW
 timezone: Asia/Taipei
 
-title: 我的部落格
-name: SamYu
-url: "https://samyu183201-arch.github.io"
-baseurl: "/blog"
-description: 分享技術、筆記與心得
+title: "我的部落格"
+name: "SamYu"
+description: "分享技術、筆記與心得"
+url: "https://https://samyu183201.github.io"   # 例如: https://samyu183201.github.io
+baseurl: "/blog"                           # 如果有子路徑就填，否則留空 ""
 
-minimal_mistakes_skin: "default"
+# 佈景主題
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # 可選：default, dark, dirt, neon, air, sunrise...
 
-collections:
-  posts:
-    output: true
-
-permalink: /:categories/:title/
+# 分頁設定
 paginate: 10
 paginate_path: /page:num/
 
+# 部落格文章設定
+permalink: /:categories/:title/
+
+# Plugins (GitHub Pages 允許的插件)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# 作者資訊
+author:
+  name   : "SamYu"
+  avatar : "/assets/images/avatar.png"  # 放頭像的路徑
+  bio    : "喜歡分享技術與筆記的工程師"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/你的帳號"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/你的帳號"
+
+# 預設值 (讓所有文章自動套用這些參數)
 defaults:
   - scope:
       path: ""
@@ -29,20 +51,3 @@ defaults:
       comments: false
       share: true
       related: true
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
-
-nav: primary
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/samyu183201-arch"
-    - label: "關於本站"
-      url: "/about/"
-
