@@ -1,8 +1,8 @@
 ---
 title: "我的第一篇文章"
 date: 2025-08-21
-categories: [筆記]
-tags: [Jekyll, MinimalMistakes]
+categories: [測試]
+tags: []
 layout: single
 author_profile: true
 ---
