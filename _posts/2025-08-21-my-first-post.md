@@ -1,10 +1,8 @@
 ---
 title: "我的第一篇文章"
 date: 2025-08-21
-categories: [測試]
-tags: []
 layout: single
 author_profile: true
 ---
 
-我想要blog的版面乾淨，盡量用文字就好 
+輸出的力量
