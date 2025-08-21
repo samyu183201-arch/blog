@@ -3,9 +3,9 @@ timezone: Asia/Taipei
 
 title: 我的部落格
 name: SamYu
-url: "https://"samyu183201-arch.github.io"
+url: "https://samyu183201-arch.github.io"
 baseurl: "/blog"
-description: "分享技術、筆記與心得"
+description: 分享技術、筆記與心得
 
 minimal_mistakes_skin: "default"
 remote_theme: "mmistakes/minimal-mistakes"
@@ -13,6 +13,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 collections:
   posts:
     output: true
+
 permalink: /:categories/:title/
 paginate: 10
 paginate_path: /page:num/
@@ -35,22 +36,3 @@ plugins:
   - jekyll-paginate
 
 nav: primary
-
-# google_analytics: G-XXXXXXXXXX
-# social:
-#   links:
-#     - https://github.com/<你的帳號>
-
-# comments:
-#   provider: "giscus"
-# giscus:
-#   repo: "<你的帳號>/<你的帳號>.github.io"
-#   repo_id: "你的 repo_id"
-#   category: "Announcements"
-#   category_id: "你的 category_id"
-#   mapping: "pathname"
-#   reactions_enabled: "1"
-#   emit_metadata: "0"
-#   input_position: "bottom"
-#   theme: "light"
-#   lang: "zh-TW"
