@@ -27,18 +27,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# 作者資訊
-author:
-  name   : "SamYu"
-  avatar : "/assets/images/avatar.png"  # 放頭像的路徑
-  bio    : "喜歡分享技術與筆記的工程師"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/你的帳號"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/你的帳號"
 
 # 預設值 (讓所有文章自動套用這些參數)
 defaults:
