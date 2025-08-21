@@ -4,8 +4,7 @@ timezone: Asia/Taipei
 
 title: "Sam.Blog"
 name: "SamYu"
-description: "分享技術、筆記與心得"
-url: "https://https://samyu183201.github.io"   # 例如: https://samyu183201.github.io
+url: "https://samyu183201.github.io"   # 例如: https://samyu183201.github.io
 baseurl: "/blog"                           # 如果有子路徑就填，否則留空 ""
 
 # 佈景主題
@@ -16,13 +15,9 @@ minimal_mistakes_skin: "default" # 可選：default, dark, dirt, neon, air, sunr
 paginate: 10
 paginate_path: /page:num/
 
-# 部落格文章設定
-permalink: /:categories/:title/
-
 # Plugins (GitHub Pages 允許的插件)
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
 
