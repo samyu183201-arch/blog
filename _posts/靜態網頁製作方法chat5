@@ -1,1 +1,77 @@
+---
+title: "靜態網頁製作方法"
+date: 2025-08-21
+---
+1. 手工編寫 HTML / CSS / JS
 
+最基本的方式，直接寫 .html、.css、.js 檔案。
+
+適合學習或製作簡單網頁（例如個人履歷頁）。
+
+工具：VS Code、Notepad++。
+
+2. 套用前端框架 / UI Library
+
+使用像 Bootstrap、Tailwind CSS 來加速開發。
+
+範例：index.html + Tailwind CSS CDN，即可快速排版出響應式頁面。
+
+適合想要「好看、快速」但不想從零寫。
+
+3. 靜態網站生成器 (Static Site Generator, SSG)
+
+這類工具會把 Markdown 或模版轉換成純 HTML 靜態檔案，非常適合寫部落格或文件網站。
+
+Jekyll（GitHub Pages 內建支援）
+
+Hugo（Go 語言寫的，生成速度非常快）
+
+Hexo（Node.js 為基礎，中文社群大）
+
+Next.js / Nuxt.js（也能輸出靜態頁面 next export）
+
+適合：部落格、文件站、公司簡介網站。
+
+4. 網站建構平台 (No-code / Low-code)
+
+如果不想寫程式碼，可以用這些工具：
+
+Wix
+
+WordPress.com（只用靜態功能）
+
+Notion → 靜態網站服務（如 Super.so、Fruition）
+
+Google Sites
+
+適合：快速上線、非工程背景。
+
+5. 部署與託管
+
+寫好靜態網頁後，需要放到網路上：
+
+GitHub Pages（免費，支援 Jekyll）
+
+Vercel / Netlify（支援 Hugo、Next.js 等）
+
+Cloudflare Pages（快、免費 CDN）
+
+AWS S3 / GCP Storage / Azure Blob（物件儲存直接當網站）
+
+適合：個人作品集、公司官網。
+
+6. 進階選項
+
+靜態轉換工具：把 WordPress、Ghost 這種動態網站轉成純靜態 HTML（例如 Simply Static）。
+
+Jamstack 架構：用 API + Markdown + 靜態頁面，讓網站有接近動態的效果，但仍是靜態部署。
+
+👉 總結：
+
+初學者 / 快速做： 直接寫 HTML + CSS 或用 Bootstrap。
+
+寫部落格 / 文件： Jekyll / Hugo / Hexo。
+
+免寫程式： Wix / Notion + Super。
+
+專業部署： GitHub Pages / Vercel / Netlify。
