@@ -5,3 +5,7 @@ categories: [blog]
 tags: [jekyll, github-pages, minimal-mistakes]
 author: "SamYu"
 ---
+
+Feed 就是部落格的訂閱源，方便別人追蹤你的文章更新。
+
+XML 是一種資料格式，讓電腦之間能交換資訊；feed.xml 就是用 XML 格式寫成的文章清單。
