@@ -4,7 +4,7 @@ timezone: Asia/Taipei
 
 title: "Sam.Blog"
 name: "SamYu"
-url: "https://samyu183201.github.io"   # 例如: https://samyu183201.github.io
+url: "https://samyu183201-arch.github.io"   
 baseurl: "/blog"                           # 如果有子路徑就填，否則留空 ""
 
 # 佈景主題
