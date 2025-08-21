@@ -52,3 +52,16 @@ defaults:
       comments: false
       share: true
       related: true
+
+# 開啟側邊欄分類連結
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      sidebar:
+        nav: "categories"
+        
+
+      
