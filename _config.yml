@@ -9,7 +9,7 @@ baseurl: "/blog"                           # 如果有子路徑就填，否則�
 
 # 佈景主題
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # 可選：default, dark, dirt, neon, air, sunrise...
+minimal_mistakes_skin: "dark" # 可選：default, dark, dirt, neon, air, sunrise...
 
 # 分頁設定
 paginate: 10
