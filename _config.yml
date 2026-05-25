@@ -34,5 +34,9 @@ defaults:
       share: false
       related: true
 
+# 導覽列設定
+navigation:
+  - title: "關於我"
+    url: /about/
 
       
