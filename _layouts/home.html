@@ -7,9 +7,9 @@ layout: default
 <ul>
   {% for post in site.posts %}
     <li>
+      <span class="post-date" style="color: #888; font-size: 0.9 em;">{{ post.date | date: "%Y-%m-%d" }}</span>
+      
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>
-
