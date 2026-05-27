@@ -3,14 +3,14 @@ layout: single
 permalink: /about/
 ---
 
-歡迎來到我的部落格！這裡是我記錄生活、分享想法與學習心得的地方。
+設備: <br>
+Google Pixel 9<br>
+Dell inspiron3910<br>
+ipad air 5 (用來聽音樂...<br>
 
-syncthing: 同步手機筆記到電腦
-github: 用jekyll產生部落格
 
 
-### 關於我的人生方向
-1. **主業**：
-2. **副業**：考試解題教學 / 寫作
-3. **興趣**：音樂 / 運動
-4. 接觸過的東西:
+愛用工具:<br>
+syncthing: 同步手機筆記到電腦<br>
+github: 用jekyll產生部落格  ( 好像很多人用hugo?
+
