@@ -3,9 +3,11 @@ layout: single
 permalink: /about/
 ---
 
-# 哈囉，我是 游崴盛 (Sam) 👋
-
 歡迎來到我的部落格！這裡是我記錄生活、分享想法與學習心得的地方。
+
+syncthing: 同步手機筆記到電腦
+github: 用jekyll產生部落格
+
 
 ### 關於我的人生方向
 1. **主業**：
