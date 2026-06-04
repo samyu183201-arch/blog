@@ -1,4 +1,6 @@
 ---
-layout: home
+layout: splash
+title: Sam.Blog
 ---
-<h2>📚 文章總數：{{ site.posts.size }} 篇</h2>
+
+## 📚 文章總數：{{ site.posts.size }} 篇
