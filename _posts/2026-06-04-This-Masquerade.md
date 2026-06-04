@@ -11,7 +11,6 @@ layout: single
 
 我只知道 Carpenters 或 George Benson 的版本，好奇 Leon Russell 寫這首歌時的想法。<br>
 
-
+Masquerade[^1]這個詞感覺有很多可以討論的東西
 ---
-Masquerade[^1]<br>
 [^1]: Masquerade 是「化裝舞會」的意思。
