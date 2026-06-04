@@ -13,5 +13,5 @@ layout: single
 
 
 ---
-Masquerade[^1]
+Masquerade[^1]<br>
 [^1]: Masquerade 是「化裝舞會」的意思。
