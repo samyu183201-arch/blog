@@ -2,6 +2,7 @@
 title: "This Masquerade"
 date: 2026-06-04
 categories: [1]
+layout: single
 ---
 
 
