@@ -3,3 +3,9 @@ main:
     url: /
   - title: "關於我"
     url: /about/
+  - title: "人文社會"
+    url: /1/
+  - title: "科學"
+    url: /2/
+  - title: "生物"
+    url: /3/  
