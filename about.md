@@ -3,6 +3,8 @@ layout: single
 permalink: /about/
 ---
 
+一個房間很亂、手機電腦資料很多、想法很多的人...<br>
+
 設備: <br>
 Google Pixel 9<br>
 Dell inspiron3910<br>
