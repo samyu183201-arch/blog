@@ -42,8 +42,6 @@ navigation:
     url: /1/
   - title: "科學"
     url: /2/
-  - title: "自然"
-    url: /3/
   - title: "部落卷"
     url: /4/   
 
